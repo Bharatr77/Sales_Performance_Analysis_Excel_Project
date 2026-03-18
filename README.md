@@ -1,9 +1,9 @@
 # FMCG Warehouse: Optimizing Amazon's Distribution Efficiency
- ##Project Overview
+Project Overview
 
 This project is a deep-dive data analysis aimed at improving the operational efficiency of Amazon's FMCG warehouse network. In the fast-paced FMCG sector, delays and stockouts lead to significant revenue loss. This project identifies root causes of supply chain bottlenecks and provides data-driven recommendations to minimize operational costs and ensure timely delivery.
 
- ##Business Problem
+ Business Problem
 
 Amazon is experiencing inefficiencies in its warehouse operations, leading to:
 
