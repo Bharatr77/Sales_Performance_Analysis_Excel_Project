@@ -52,4 +52,7 @@ Location: Rural warehouses face 15% more transport issues compared to Urban cent
 
 Refill Pattern: High correlation found between num_refill_req_l3m and retail_shop_num.
 
+<img width="1188" height="533" alt="image" src="https://github.com/user-attachments/assets/12466a24-e2b2-4e54-8ebb-26f58ccd573c" />
+
+
 
