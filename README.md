@@ -1,42 +1,52 @@
-# FMCG Warehouse: Optimizing Amazon's Distribution Efficiency
+# Sales Performance Analysis Dashboard
 Project Overview
+This project focuses on a comprehensive analysis of sales data for a retail business throughout 2022. The objective was to analyze over 31,000+ transactions to identify purchasing patterns, high-value customer segments, and regional sales distribution. By transforming raw data into a dynamic dashboard, this project provides actionable insights to optimize inventory and marketing strategies.
 
-This project is a deep-dive data analysis aimed at improving the operational efficiency of Amazon's FMCG warehouse network. In the fast-paced FMCG sector, delays and stockouts lead to significant revenue loss. This project identifies root causes of supply chain bottlenecks and provides data-driven recommendations to minimize operational costs and ensure timely delivery.
+ # Tech Stack & Tools
+Tool: Microsoft Excel (Advanced)
 
- Business Problem
+Techniques: Data Cleaning (Power Query), Pivot Tables, Pivot Charts, Custom Calculations, and Interactive Slicers.
 
-Amazon is experiencing inefficiencies in its warehouse operations, leading to:
+Visuals: Integrated Dashboards for executive-level reporting.
 
-Frequent stockouts and delivery delays.
+# Data Processing Workflow
+To ensure the accuracy of the analysis, the following steps were taken:
 
-Increased operational costs.
+Data Cleaning: Handled missing values in the Amount and Qty columns and standardized category names.
 
-Supply chain disruptions affecting customer satisfaction.
+Data Transformation: Created new calculated columns for Month, Age Group (Teen, Adult, Senior), and Sales Channel categorization.
 
-Goal: Analyze warehouse data to uncover inefficiencies and propose actionable solutions to optimize performance.
+Data Integration: Linked Input Data with Master Data to ensure consistent SKU and category mapping.
 
- Tech Stack & Methodology
+ # Key Insights & Analysis
+1. Revenue & Volume
+Total Revenue: Approximately ₹21.17 Million.
 
-Tool: Microsoft Excel (Advanced Analytics)
+Total Orders: Over 28,000 successful deliveries.
 
-Data Cleaning: Handled missing values (Mean/Median imputation for wh_est_year) and type conversion for categorical variables.
+Peak Performance: March emerged as the highest-selling month, contributing significantly to the annual revenue.
 
-Analysis: Pivot Tables for regional performance, correlation analysis between warehouse age and breakdown frequency, and capacity utilization checks.
+2. Customer Demographics
+Gender Split: Women are the primary drivers of the business, accounting for ~69% of total sales.
 
-Visualization: Interactive Excel Dashboard with slicers for Zone, Location Type, and Warehouse Capacity.
+Top Age Group: The "Adult" category (30-49 years) is the most profitable segment, contributing nearly 50% of the total revenue.
 
- Key Objectives & KPIs
-Warehouse Utilization: Analyzing product_wg_ton against WH_capacity_size.
+3. Channel & Product Performance
+Top Channels: Amazon, Flipkart, and Myntra combined drive over 80% of the total sales volume.
 
-Operational Health: Monitoring wh_breakdown_l3m and storage_issue_reported_l3m to identify aging infrastructure.
+Product Leaders: Kurta, Set, and Western Wear are the top-performing categories, showing high demand throughout the year.
 
-Logistics Efficiency: Evaluating transport_issue_l1y based on dist_from_hub.
+4. Regional Distribution
+Maharashtra is the top-performing state, followed by Karnataka and Uttar Pradesh, indicating a strong market presence in Western and Southern India.
 
-Competitor Mapping: Understanding the impact of Competitor_in_mkt on refill requests.
+ # Dashboard Features
+Order vs Sales Trend: A monthly comparison to identify seasonal spikes.
 
- Actionable Insights
+Men vs Women Analysis: A donut chart showing the gender contribution to sales.
 
-Infrastructure: Warehouses with "No" temp_reg_mach (Temperature Regulation) showed a higher rate of storage issues in the food category.
+Order Status Distribution: A breakdown of Delivered vs. Cancelled vs. Refunded orders to monitor logistics health.
+
+Interactive Slicers: Users can filter the entire dashboard by Month, Channel, and Category.
 
 Location: Rural warehouses face 15% more transport issues compared to Urban centers due to dist_from_hub constraints.
 
